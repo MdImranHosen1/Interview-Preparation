@@ -684,6 +684,8 @@ public:
 - A virtual function can be overridded by derived class to implement polympohysim, non-virtual function can not.
 - A virtual function's address is put into a virtual function table, through which a virtual function is called. Non-virtual function is called directly using its address.
 - A virtual function participates in dynamic binding and polymorphism. A normal function is resolved at compile time through static binding.
+
+
 Imagine you're running a zoo, and you want to define how different animals make sounds. Here's how virtual functions and dynamic polymorphism can help:
 
 **1. Base Class: Animal**
